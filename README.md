@@ -3,7 +3,7 @@ Java Mainframe text message generator based on annotations and reflection
 
 ## Usage
 ```java
-// Prepare request message - POJO * Set only required information
+// Prepare request message - POJO
 SampleMessageRequestSpec messageRequestData = SampleMessageRequestSpec.builder()
         .fieldName1("CODEW999")
         .[MORE_FIELDS...]
@@ -23,4 +23,4 @@ SampleMessageResponseSpec messageResponse = messageHandler.getMessageResponse(te
 + Java Compile version: 1.8
 
 ## License
-__engage-api-java-sdk__ is licensed under an Apache-2.0 license
+__mainframe-request-msg-lib__ is licensed under an Apache-2.0 license
